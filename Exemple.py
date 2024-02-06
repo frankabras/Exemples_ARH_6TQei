@@ -38,7 +38,7 @@ print("Hello World")	#Permet d'afficher un message dans le terminal
 Autres possibilité avec la fonction print :
 
 """
-while True:			#Comparable au while(1) {...} en langage C 
+while True:		#Comparable au while(1) {...} en langage C 
     bp_val = BUTTON.value()	#La fonction .value() pour récupérer l'état d'une entrée
     if bp_val == 1:		#Vérifie si l'entrée est active
         LED.on()		#La fonction .on() permet d'activer une sortie
