@@ -39,12 +39,12 @@ Autres possibilité avec la fonction print :
 
 """
 while True: 				#Comparable au while(1) {...} en langage C 
-    bp_val = BUTTON.value() #La fonction .value() pour récupérer l'état d'une entrée
+    bp_val = BUTTON.value()	#La fonction .value() pour récupérer l'état d'une entrée
     if bp_val == 1:			#Vérifie si l'entrée est active
         LED.on()			#La fonction .on() permet d'activer une sortie
-        #LED.value(1)		 #Autre méthode pour activer une sortie
-        #LED.value(True)	 #On peut également utiliser True
+        #LED.value(1)		#Autre méthode pour activer une sortie
+        #LED.value(True)	#On peut également utiliser True
     else :					#Dans le cas ou l'entrée est incative
         LED.off()			#La fonction .off() permet de désactiver une sortie
-        #LED.value(0)		 #Autre méthode pour désactiver une sortie
-        #LED.value(True)	 #On peut également utiliser False
+        #LED.value(0)		#Autre méthode pour désactiver une sortie
+        #LED.value(True)	#On peut également utiliser False
