@@ -1,6 +1,6 @@
 #Importation des librairies utilisées
 import utime #Permet d'utiliser les foonctions tempo de MicroPython
-from machine import Pin,PWM,ADC
+from machine import Pin, PWM, ADC
 
 #Déclaration de la fonction d'interruption du BP
 """
